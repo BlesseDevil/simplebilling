@@ -9,6 +9,8 @@ browser: no server, no account, and your data stays on your device.
 
 Author: Mehedi Maruf (BlesseDevil) — https://mehedimaruf.com
 
+Contact: simplebilling@mehedimaruf.com
+
 ## About this repository
 
 This repository holds only the published build of the app, served through GitHub Pages. It is
