@@ -2,21 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/assets/logo-dark-BqmGngVY.png" />
+    <link rel="icon" type="image/png" href="/assets/logo-dark-ByfQ6vR6.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SimpleBilling</title>
+    <meta
+      name="description"
+      content="SimpleBilling is a local-first billing tracker for small service businesses: customers, recurring billing, branded PDF statements and payment receipts, sent by email or WhatsApp. It runs in your browser with no server and no account."
+    />
+    <meta name="author" content="Mehedi Maruf" />
+    <link rel="author" href="https://mehedimaruf.com" />
+    <link rel="canonical" href="https://simplebilling.mehedimaruf.com/" />
     <script>
       // Apply saved theme before paint to avoid a flash of the wrong theme.
       try {
         var saved = JSON.parse(localStorage.getItem('blessedevil-billing'));
         var theme = saved && saved.state && saved.state.settings && saved.state.settings.theme;
-        if (theme !== 'light') document.documentElement.classList.add('dark');
+        var dark = theme === 'system' ? window.matchMedia('(prefers-color-scheme: dark)').matches : theme !== 'light';
+        if (dark) document.documentElement.classList.add('dark');
       } catch (e) {
         document.documentElement.classList.add('dark');
       }
     </script>
-    <script type="module" crossorigin src="/assets/index-9rRh9pBA.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-2WaMKv2D.css">
+    <script type="module" crossorigin src="/assets/index-RDS8vySC.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-k_12_5k_.css">
   </head>
   <body>
     <div id="root"></div>
