@@ -11,11 +11,11 @@ Author: Mehedi Maruf (BlesseDevil) — https://mehedimaruf.com
 
 Contact: simplebilling@mehedimaruf.com
 
-## About this repository
+## Support the project
 
-This repository holds only the published build of the app, served through GitHub Pages. It is
-generated automatically on every release, so changes made here are overwritten. The source code
-is not public.
+SimpleBilling is a free hobby project. If it helps you, you can donate; donations are voluntary gifts, not
+payment for a product or service. Supporters may receive a thank-you key that switches on extra perks as a
+courtesy. See the Supporters page in the app for the ways to donate.
 
 ## Licence
 
